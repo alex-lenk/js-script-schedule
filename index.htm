@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script type="text/javascript" src="http://artlenk.ru/theme/js/jquery.v1.11.1.min.js"></script>
+</head>
+<body>
+<div class="container">
+        <h2>Общее расписание</h2> 
+<div class="row">
+    <div class="col-sm-3">
+        <h4>По направлению:</h4>
+        <ul class="filter-destination filter-all">
+            <li><button class="destination" data-p1="1004" data-p2="1" data-p3="0">Хатха-йога</button></li><!-- 1 -->
+            <li><button class="destination" data-p1="1004" data-p2="2" data-p3="0">Айенгар-йога</button><!-- 2 -->
+                <ul>
+                    <li><button class="destination" data-p1="1004" data-p2="21" data-p3="0">Йога с нуля и для начинающих</button></li><!-- 21 -->
+                    <li><button class="destination" data-p1="1004" data-p2="22" data-p3="0">Терапевтический классы</button><!-- 22 -->
+                        <ul>
+                            <li><button class="destination" data-p1="1004" data-p2="221" data-p3="0">Здоровая спина</button></li> <!-- 221 -->
+                            <li><button class="destination" data-p1="1004" data-p2="222" data-p3="0">Женские классы</button></li><!-- 222 -->
+                        </ul>
+                    </li>
+                    <li><button class="destination" data-p1="1004" data-p2="23" data-p3="0">Йога для беременных</button></li><!-- 23 -->
+                </ul>
+            </li>
+            <li><button class="destination" data-p1="1004" data-p2="3" data-p3="0">Кундалини-йога</button></li><!-- 3 -->
+            <li><button class="destination" data-p1="1004" data-p2="4" data-p3="0">Йогалатес</button></li><!-- 4 -->
+            <li><button class="destination" data-p1="1004" data-p2="5" data-p3="0">Индийские танцы</button></li><!-- 5 -->
+        </ul>
+        <hr>
+        <h4>По инструктору:</h4>
+        <ul class="filter-instructor filter-all">
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="1">Уфимцева Светлана</button></li> <!-- 1 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="2">Шестаков Евгений</button></li><!-- 2 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="3">Шабанов Юрий</button></li><!-- 3 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="4">Ратникова Галина</button></li><!-- 4 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="5">Пихурова Оксана</button></li><!-- 5 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="6">Жулковская Мария</button></li><!-- 6 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="7">Розенберг Анна</button></li><!-- 7 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="8">Тасун Людмила</button></li><!-- 8 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="9">Берсенева Елена</button></li><!-- 9 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="10">Осоченко София</button></li><!-- 10 -->
+            <li><button class="instructor" data-p1="1004" data-p2="0" data-p3="11">Кузьменко Ирина</button></li><!-- 11 -->
+        </ul>
+    </div>
+    <div class="col-sm-9">
+        <table class="schedule-table room-1004">
+          <thead>
+            <tr>
+              <th class="tg-guz1"><i class="fa fa-clock-o"></i></th>
+              <th class="tg-qcnj">Пн.</th>
+              <th class="tg-qcnj">Вт.</th>
+              <th class="tg-qcnj">Ср.</th>
+              <th class="tg-qcnj">Чт.</th>
+              <th class="tg-qcnj">Пт.</th>
+              <th class="tg-qcnj">Сб.</th>
+              <th class="tg-qcnj">Вс.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-baqh">7:00</td>
+              <td class="item area-1 trainer-2"><a href="#">Хатха-йога</a> <a href="#">Евгений Шестаков</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-1 trainer-2"><a href="#">Хатха-йога</a> <a href="#">Евгений Шестаков</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-1 trainer-2"><a href="#">Хатха-йога</a> <a href="#">Евгений Шестаков</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh">7:30</td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-3 trainer-4"><a href="#">Кундалини-йога</a> <a href="#">Галина Ратникова</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-3 trainer-4"><a href="#">Кундалини-йога</a> <a href="#">Галина Ратникова</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh">9:30</td>
+              <td class="item area-5 trainer-11"><a href="#">Индийские танцы</a> <a href="#">Ирина Кузьменко</a> </td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-5 trainer-11"><a href="#">Индийские танцы</a> <a href="#">Ирина Кузьменко</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh">10:00</td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-3 trainer-4"><a href="#">Кундалини-йога</a> <a href="#">Галина Ратникова</a></td>
+              <td class="item area-1 trainer-1"><a href="#">Хатха-йога</a> <a href="#">Светлана Уфимцева</a></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh">11:00</td>
+              <td class="item area-4 trainer-zero"><a href="#">Йогалатес</a> <a href="#">Наталья Масаева</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-4 trainer-zero"><a href="#">Йогалатес</a> <a href="#">Наталья Масаева</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-4 trainer-zero"><a href="#">Йогалатес</a> <a href="#">Наталья Масаева</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh">11:30</td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-1 trainer-2"><a href="#">Хатха-йога</a> <a href="#">Евгений Шестаков</a></td>
+              <td class="tg-yw4l"></td>
+            </tr>
+            <tr>
+              <td class="tg-baqh">12:00</td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-1 trainer-1"><a href="#">Хатха-йога</a> <a href="#">Светлана Уфимцева</a></td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">17:45</td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-1 trainer-2"><a href="#">Хатха-йога</a> <a href="#">Евгений Шестаков</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-1 trainer-2"><a href="#">Хатха-йога</a> <a href="#">Евгений Шестаков</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">18:30</td>
+              <td class="item area-2 trainer-5"><a href="#">Айенгар-йога</a> <a href="#">Оксана Пихурова</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-2 trainer-5"><a href="#">Айенгар-йога</a> <a href="#">Оксана Пихурова</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-2 trainer-5"><a href="#">Айенгар-йога</a> <a href="#">Оксана Пихурова</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">19:30</td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-2 trainer-zero"><a href="#">Айенгар-йога</a> <a href="#">Агния Калмазан</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-2 trainer-zero"><a href="#">Айенгар-йога</a> <a href="#">Агния Калмазан</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+            </tr>
+            <tr>
+              <td class="tg-yw4l">20:00</td>
+              <td class="item area-1 trainer-2"><a href="#">Хатха-йога</a> <a href="#">Евгений Шестаков</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-1 trainer-2"><a href="#">Хатха-йога</a> <a href="#">Евгений Шестаков</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="item area-1 trainer-2"><a href="#">Хатха-йога</a> <a href="#">Евгений Шестаков</a></td>
+              <td class="tg-yw4l"></td>
+              <td class="tg-yw4l"></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+</div>
+</div>
+
+<script>
+var filterArea = $('.destination, .instructor');
+
+filterArea.click(function() {
+   filterArea.on('click', time_select($(this).data('p1'), $(this).data('p2'), $(this).data('p3')));
+});
+
+function time_select(room, area, trainer) {
+  $("table.room-" + room + " .item").removeClass("select");
+  $("table.room-" + room + " .area-" + area).addClass("select");
+  $("table.room-" + room + " .it").removeClass("select");
+  $("table.room-" + room + " .trainer-" + trainer).addClass("select");
+  return false;
+}
+</script>
+
+</body>
+</html>

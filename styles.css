@@ -1,0 +1,23 @@
+.schedule-table  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.schedule-table td{font-family:Arial, sans-serif;font-size:14px;padding:5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.schedule-table th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.schedule-table .tg-guz1{font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
+
+.schedule-table .tg-qcnj{font-weight:bold;font-size:14px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.schedule-table .tg-yw4l{vertical-align:top}
+.select {
+    outline: 3px solid #D5110D;
+    outline-offset: -2px;
+}
+.filter-all, .filter-all ul {margin: 0; padding:5px 0 0; list-style: none;}
+.filter-all {margin: 20px 0;}
+.filter-all button {padding:0; margin:0; background: transparent; border: 1px solid transparent; font-weight: 400; cursor: pointer;}
+.filter-all button:hover {border-bottom: 1px solid #006699;}
+.filter-all li {margin: 0 0 5px;}
+.filter-all ul li {position: relative; padding: 0 0 0 15px;}
+.filter-all ul > li::before, .filter-all ul > li > ul > li::before {content:'-'; margin:0 5px 0 0; display: inline-block; vertical-align: top;}
+.filter-all ul > li > ul > li::before {content:'~';}
+
+.schedule-table .item {text-align: center;}
+.schedule-table .item a {line-height: 15px;display: block;}
+.schedule-table .item a:last-of-type {padding:3px 0 0; color: #666666;}
